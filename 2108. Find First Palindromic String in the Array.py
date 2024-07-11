@@ -17,7 +17,7 @@ array1 = ["abc","car","racecar","cool"]
 print(firstPalindrome(array1))
 
 class Solution:
-    def firstPalindrome(self, words: List[str]) -> str:
+    def firstPalindrome(self, words: list[str]) -> str:
         for word in words:
             isPalindrome = 1
             num = len(word)
