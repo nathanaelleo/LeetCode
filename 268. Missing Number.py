@@ -1,5 +1,5 @@
 class Solution:
-    def missingNumber(self, nums: List[int]) -> int:
+    def missingNumber(self, nums: list[int]) -> int:
         n = len(nums)
         arithsum = (n*(n+1))/2
         vectorsum = sum(nums)
