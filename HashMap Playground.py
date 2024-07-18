@@ -13,19 +13,21 @@ def twoSum(nums: list[int], target: int) -> list[int]:
                 keys = list(dic.keys())
                 values = list(dic.values())
         print(keys,values)
-        print(i)
-        print(n)
+        print(i) #index
+        print(n) #value
 
+        #j is the pointer, 0,1,2
+        #m is the value 1,2,3,4
         for j, m in enumerate(nums):
-            diff = target - m
-            if diff not in dic2:
+            diff2 = target - m
+            if diff2 not in dic2:
                 dic2[m] = j
             else:
                 keys = list(dic2.keys())
                 values = list(dic2.values())
         print(keys,values)
-        print(j)
-        print(m)
+        print(j) #value
+        print(m) #index
 
 
 
