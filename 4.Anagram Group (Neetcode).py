@@ -10,4 +10,4 @@ class Solution:
 
             dic[tuple(count)].append(i)
 
-        return dic.values()            
+        return dic.values()
